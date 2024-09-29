@@ -17,13 +17,39 @@ WORKDIR /app
 # hugo 사이트 생성
 # hugo new site . --force
 
-# 테마 추가 
+# 깃 설정
 # git init
 # git config --global user.email "espoir618@gmail.com"
 # git config --global user.name "Sungjun Park"
 # git config --global --add safe.directory /app
 # git branch -M main
+
+# 테마 추가 (서브모듈)
 # git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+
+# 테마 추가 (직접)
+# git clone https://github.com/adityatelange/hugo-PaperMod.git themes\PaperMod
+
+# 글생성
+
+
+# 휴고 서버 실행
+# hugo server --bind 0.0.0.0 --baseURL http://localhost:1313/
+
+# 빌드 할때
+# git submodule update
+# podman exec -it <컨테이너 ID> /bin/sh # 컨테이너 접속
+# hugo
+# exit # 컨테이너 접속 해제
+
+# 빌드 후 gh-pages브랜치로 이동
+# main브랜치에서 public 폴더를 ../public_backup으로 복사:
+# Copy-Item -Recurse -Path public -Destination ../public_backup
+# gh-pages브랜치에서 ../public_backup 폴더 내의 모든 파일을 현재 경로로 복사:
+# Copy-Item -Recurse -Path ../public_backup/* -Destination .
+# 로컬 ../public_backup 폴더를 삭제:
+# Remove-Item -Recurse -Force ../public_backup
+
 
 # ------------------
 # 컨테이너 관련 명령어

@@ -2,3 +2,6 @@ baseURL = 'https://park-sungjun-618.github.io/ssBlog2/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'PaperMod'
+
+params:
+  disableThemeToggle: false
