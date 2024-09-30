@@ -10,7 +10,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 echo "=== Step1. build hugo"
 # Build the project.
 # hugo -t <your theme>
-hugo -t PaperMod
+# hugo -t PaperMod
 
 echo "=== Step2. commit & push public directory"
 # Go To Public folder, sub module commit
