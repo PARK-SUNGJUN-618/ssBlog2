@@ -40,14 +40,14 @@ params:
   showtoc: false
   tocopen: false
 
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+  #  assets:
+  #    # disableHLJS: true # to disable highlight.js
+  #    # disableFingerprinting: true
+  #    favicon: "<link / abs url>"
+  #    favicon16x16: "<link / abs url>"
+  #    favicon32x32: "<link / abs url>"
+  #    apple_touch_icon: "<link / abs url>"
+  #    safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "Home"
@@ -72,7 +72,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: Welcome to my blog 1
 
   socialIcons:
     - name: x
