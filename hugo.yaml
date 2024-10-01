@@ -10,8 +10,8 @@ buildFuture: false
 buildExpired: false
 
 minify:
-  #  disableXML: true
-  enable: true
+  # disableXML: true
+  disable: true
   minifyOutput: false
 
 params:
@@ -20,7 +20,7 @@ params:
   description: "ChocoPark-SSBlog"
   keywords: [Blog, Portfolio, PaperMod]
   author: ChocoPark
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -127,7 +127,7 @@ menu:
       url: https://example.org
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
+#pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
