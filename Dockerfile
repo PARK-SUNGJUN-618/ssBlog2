@@ -31,7 +31,7 @@ WORKDIR /app
 # git clone https://github.com/adityatelange/hugo-PaperMod.git themes\PaperMod
 
 # 글생성
-
+# hugo new --kind post posts/your-post-title.md
 
 # 휴고 서버 실행
 # hugo server --bind 0.0.0.0 --baseURL http://localhost:1313/

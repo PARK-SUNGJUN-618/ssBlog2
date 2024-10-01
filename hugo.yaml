@@ -16,20 +16,21 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ChocoPark-SSBlog
-  description: "ChocoPark-SSBlog"
+  title: "SSBlog : Choco Park"
+  description: "SSBlog : Choco Park"
   keywords: [Blog, Portfolio, PaperMod]
-  author: ChocoPark
+  author: Choco Park
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  # ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -51,7 +52,7 @@ params:
   #    safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: "SSBlog"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
@@ -72,16 +73,16 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog 1
+    Title: "Welcome SSBlog \U0001F44B"
+    Content: "Coding, creativity, and life – join me on this journey!"
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
+    #- name: x
+    #  url: "https://x.com/"
     #    - name: stackoverflow
     #      url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/PARK-SUNGJUN-618"
 
   analytics:
     google:

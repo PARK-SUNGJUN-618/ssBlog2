@@ -20,7 +20,8 @@ cd public
 git add .
 
 # Commit changes.
-msg="rebuilding SSblog, `date`"
+#msg="rebuilding SSblog, `date`"
+msg="[Jun] Rebuilding SSBlog"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
@@ -36,7 +37,8 @@ cd ..
 # blog repository Commit & Push
 git add .
 
-msg="rebuilding SSblog, `date`"
+#msg="rebuilding SSblog, `date`"
+msg="[Jun] Rebuilding SSBlog"
 if [ $# -eq 1 ]
   then msg="$1"
 fi

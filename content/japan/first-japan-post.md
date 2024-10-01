@@ -1,6 +1,6 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
-date: {{ .Date }}
+title: 'First Japan Post'
+date: 2024-10-01T15:16:28Z
 draft: true
 # weight: 1
 # aliases: ["/first"]
@@ -35,3 +35,5 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
+first japan post test!
