@@ -127,7 +127,7 @@ menu:
       url: https://example.org
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-#pygmentsUseClasses: true
+pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
