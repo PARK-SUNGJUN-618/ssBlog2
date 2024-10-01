@@ -1,6 +1,6 @@
 ---
 title: 'First Japan Post'
-date: 2024-10-01T15:16:28Z
+date: 2024-10-01T15:22:51Z
 draft: true
 # weight: 1
 # aliases: ["/first"]
@@ -36,4 +36,4 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-first japan post test!
+Test new post of japan!
