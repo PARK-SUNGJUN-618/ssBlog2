@@ -1,7 +1,7 @@
 ---
 title: 'First Japan Post'
 date: 2024-10-01T15:22:51Z
-draft: true
+draft: false
 # weight: 1
 # aliases: ["/first"]
 tags: ["ChocoPark"]

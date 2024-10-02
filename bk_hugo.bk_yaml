@@ -1,7 +1,7 @@
 baseURL: "https://park-sungjun-618.github.io/"
 # languageCode = 'en-us'
 title: ChocoPark-SSBlog
-theme: "PaperMod"
+theme: "Blowfish"
 paginate: 5
 
 enableRobotsTXT: true
@@ -91,6 +91,10 @@ params:
       SiteVerificationTag: "XYZabc"
     yandex:
       SiteVerificationTag: "XYZabc"
+
+  mainSections:
+    - posts
+    - japan
 
 #  cover:
 #    hidden: true # hide everywhere but not in structured data
