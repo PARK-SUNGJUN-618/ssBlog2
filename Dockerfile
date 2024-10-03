@@ -33,6 +33,10 @@ WORKDIR /app
 # 글생성
 # hugo new --kind post posts/your-post-title.md
 
+# 컨테이너 접속
+# podman start e5c87da1a1ba
+# podman exec -it e5c87da1a1ba /bin/sh
+
 # 휴고 서버 실행
 # hugo server --bind 0.0.0.0 --baseURL http://localhost:1313/
 

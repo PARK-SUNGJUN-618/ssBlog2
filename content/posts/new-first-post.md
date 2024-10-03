@@ -36,4 +36,42 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-new post!
+# new post!1
+
+## new post!2
+
+### new post!3
+
+#### new post!4
+
+# new post!1
+
+## new post!2
+
+### new post!3
+
+#### new post!4
+
+# new post!1
+
+## new post!2
+
+### new post!3
+
+#### new post!4
+
+# new post!1
+
+## new post!2
+
+### new post!3
+
+#### new post!4
+
+# new post!1
+
+## new post!2
+
+### new post!3
+
+#### new post!4
