@@ -35,7 +35,7 @@ smartTOCHideUnfocusedChildren = false
   showRecentItems = 6
   showMoreLink = true
   showMoreLinkDest = "/posts"
-  cardView = false
+  cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background
 
@@ -80,7 +80,7 @@ smartTOCHideUnfocusedChildren = false
   showViews = false
   showLikes = false
   showTableOfContents = true
-  showCards = false
+  showCards = true
   groupByYear = false
   cardView = true
   cardViewScreenWidth = false
