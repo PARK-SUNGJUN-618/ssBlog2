@@ -2,7 +2,7 @@ baseURL = "https://park-sungjun-618.github.io/"
 languageCode = "ja"
 
 theme = "blowfish"
-defaultContentLanguage = "en"
+defaultContentLanguage = "ja"
 enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
