@@ -1,5 +1,5 @@
 baseURL = "https://park-sungjun-618.github.io/"
-languageCode = "en"
+languageCode = "ja"
 
 theme = "blowfish"
 defaultContentLanguage = "en"
@@ -25,10 +25,10 @@ buildFuture = false
   priority = 0.5
 
 [frontmatter]
-date = [":fileModTime"]
+  date = [":fileModTime"]
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON"]
 
 [related]
   threshold = 0
