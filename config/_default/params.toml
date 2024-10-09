@@ -29,7 +29,7 @@ smartTOCHideUnfocusedChildren = false
   showScrollToTop = true
 
 [homepage]
-  layout = "background" # valid options: page, profile, hero, card, background, custom
+  layout = "profile" # valid options: page, profile, hero, card, background, custom
   # homepageImage = "blowfish_banner.png" # used in: hero, and card
   showRecent = true
   showRecentItems = 6
