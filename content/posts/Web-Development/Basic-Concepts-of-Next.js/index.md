@@ -24,12 +24,14 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
+showHero: true
+heroStyle: "background"
 cover:
-    image: "https://res.cloudinary.com/ss-blog/image/upload/v1719246040/ssblog/nanj9coqrfto99bqpywq.webp" # image path/url
-    alt: "next.js" # alt text
-    caption: "" # display caption under cover
-    relative: true # when using page bundles set this to true
-    hidden: false # only hide on current single page
+  image: "/img/background.svg" # image path/url
+  alt: "next.js" # alt text
+  caption: "" # display caption under cover
+  relative: false # when using page bundles set this to true
+  hidden: false # only hide on current single page
 editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text
