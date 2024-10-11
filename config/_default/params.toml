@@ -39,6 +39,16 @@ smartTOCHideUnfocusedChildren = false
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background
 
+[author]
+name = "Choco Park"
+image = "/img/ssblog_logo.png"
+headline = "Coding, creativity, and life – join me on this journey!"
+bio = "A little bit about me"
+links = [
+  # { email = "mailto:espoir618@gmail.com" },
+  { github = "https://github.com/PARK-SUNGJUN-618" }
+]
+
 [article]
   showDate = false
   showViews = false
