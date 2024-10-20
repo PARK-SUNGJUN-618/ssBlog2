@@ -1,6 +1,6 @@
 ---
-title: 'First Japan Post'
-date: 2024-10-01T15:22:51Z
+title: '日本ポスト'
+date: 2024-10-20T15:22:51Z
 draft: false
 # weight: 1
 # aliases: ["/first"]
@@ -19,9 +19,9 @@ disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
-ShowBreadCrumbs: true
+# ShowBreadCrumbs: true
 ShowPostNavLinks: true
-ShowWordCount: true
+# ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
@@ -36,4 +36,4 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-Test new post of japan!
+日本語テスト。日本旅行行きたい！。
